@@ -47,7 +47,7 @@ public class RookTest {
     /**
      * Test of getInstance method, of class Rook.
      */
-    @Test
+    /*@Test
     public void testGetInstance() {
         System.out.println("getInstance");
         ChessColor color = ChessColor.BLACK;
@@ -55,7 +55,7 @@ public class RookTest {
         Rook result = Rook.getInstance(color);
         assertEquals(this.instance, result);
         
-    }
+    }*/
 
     /**
      * Test of isMovementFromPiece method, of class Rook.

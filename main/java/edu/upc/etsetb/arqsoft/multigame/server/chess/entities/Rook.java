@@ -39,4 +39,15 @@ public class Rook extends ChessPiece {
             throw new NoPieceMovementException("Movement must be forward, backwards, left or right");
         }
     }
+    
+    @Override
+    public  void isPathFree(
+            int rO,
+            int cO,
+            int rD,
+            int cD,
+            ChessBoard board
+    ) throws NoPathFreeException {
+        
+    }
 }

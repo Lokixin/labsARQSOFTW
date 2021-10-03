@@ -28,4 +28,20 @@ public abstract class ChessPiece {
             int cD
     ) throws NoPieceMovementException;
 
-}
+    /**
+     *
+     * @param rO
+     * @param cO
+     * @param rD
+     * @param cD
+     * @param board
+     * @throws NoPathFreeException
+     */
+    public abstract void isPathFree(
+            int rO,
+            int cO,
+            int rD,
+            int cD,
+            ChessBoard board
+    ) throws NoPathFreeException;
+} 
